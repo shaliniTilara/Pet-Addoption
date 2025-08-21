@@ -1,0 +1,216 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color:skyblue;
+}
+.container1{
+  display: flex;
+  padding: 10px 30px;
+  background-color:coral;
+}
+.container1 div{
+  padding: 10px 30px;
+}
+.container1 div a{
+  text-decoration: none;
+  color: black;
+  font-size: large;
+}
+.container1 div a:hover{
+  color:lawngreen;
+}
+.main{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 30px;
+  
+}
+.main p {
+flex: 1;
+margin: 10PX;
+padding-right: 20px;
+font-size: 18px;
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color:black;
+ 
+ 
+
+}
+.main img{
+  object-fit: cover;
+  height: 500px;
+  width: 500px;
+  border-radius: 10%;
+  margin: 10px;
+}
+.homecont h2{
+  margin: 10px;
+  color:red;
+  font-weight: bolder;
+}
+
+.homecont h1{
+  color: black;
+  margin: 20px;
+}
+.see-pets-btn{
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 0lvw;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  
+}
+.cont2{
+  margin: 20px;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  
+}
+.box1 p{
+font-size: 20px;
+  font-style:normal;
+  font-weight: 100;
+}
+  
+.box2 p{
+  font-size: 20px;
+  font-style:normal;
+  font-weight: 100;
+  
+}
+.box3 p{
+  font-size: 20px;
+  font-style:normal;
+  font-weight: 100;
+  
+}
+.box4 p{
+  font-size: 20px;
+  font-style:normal;
+  font-weight: 100;
+  
+}
+  
+
+.box1 img{
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+  margin: 20px;
+}
+
+.box2 img{
+  
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+  margin: 20px;
+}
+
+.box3 img{
+  
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+  margin: 20px;
+}
+.box4 img{
+  
+  height: 300px;
+  width: 300px;
+  border-radius: 10%;
+  margin: 20px;
+}
+.apply-btn{
+  
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 0lvw;
+  border-radius: 10px;
+  color: white;
+  background-color: blue;
+  
+}
+
+.apply-form {
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #e6f6ff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.apply-form input,
+.apply-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.apply-form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.reveiw-btn{
+  font-size: 14px;
+  cursor: pointer;
+  padding: 10px 20px;
+  border: 0lvw;
+  border-radius: 10px;
+  color:black;
+  background-color:bisque;
+  margin-left: 10px;
+  
+}
+.process-section h1{
+  font-size:40px;
+  font-style:oblique;
+  
+}
+.process-section ol{
+  font-size: 25px;
+}
+.review-container {
+  text-align: center;
+  padding: 30px;
+  
+}
+
+.review-card {
+  background-color: white;
+  padding: 20px;
+  width: 250px;
+  margin: 15px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.review-card:hover {
+  transform: scale(1.05);
+}
+
+.review-container h1 {
+  margin-bottom: 20px;
+  color: darkgreen;
+}
+
+.review-card h3 {
+  margin: 10px 0;
+ color:black;
+}
