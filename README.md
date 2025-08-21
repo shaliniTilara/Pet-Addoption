@@ -1,12 +1,34 @@
-# React + Vite
+<h1>📖 About</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Pet Adoption is a frontend web application built using React, Bootstrap, and JavaScript.
+The platform allows users to:
 
-Currently, two official plugins are available:
+1. Browse pets with their details and reviews
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Adopt pets by filling out a form
 
-## Expanding the ESLint configuration
+3. Explore user reviews
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. Use a responsive and clean UI for a smooth adoption process
+
+<h1>✨ Features</h1>
+
+>> Browse pets with images, names, and descriptions
+
+>> Fill adoption form to adopt a pet
+
+>> View reviews from other users
+
+>> Responsive design with Bootstrap
+
+>> Interactive UI powered by React
+
+<h1>🛠️ Tech Stack</h1>
+
+> React
+
+> Bootstrap
+
+> JavaScript (ES6+)
+
+> CSS3 / HTML5
